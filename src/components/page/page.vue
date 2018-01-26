@@ -9,6 +9,12 @@
                 <ui-list-item title="捐赠" to="/donate">
                     <ui-icon slot="left" value="grade"/>
                 </ui-list-item>
+                <ui-divider />
+            </ui-list>
+            <ui-list @itemClick="toggle()">
+                <ui-list-item title="云设工具" href="http://tool.yunser.com/">
+                    <ui-icon slot="left" value="grade"/>
+                </ui-list-item>
             </ui-list>
         </div>
         <slot></slot>
