@@ -1,7 +1,7 @@
 <template>
-    <my-page title="捐赠">
+    <my-page title="捐赠" :page="page">
         <ui-article>
-            <p>如果这个网站不小心帮助到了你，可以请我喝杯咖啡，方便我熬夜敲代码，以及帮我分担一点服务器的开销。</p>
+            <p>如果这个网站不小心帮助到了你，可以请我喝杯咖啡，以及帮我分担一点服务器的开销。</p>
         </ui-article>
         <div class="pay-box">
             <div class="pay wechat-pay">
@@ -20,7 +20,17 @@
     export default {
         data () {
             return {
-                version: ''
+                version: '',
+                page: {
+                    menu: [
+                        {
+                            type: 'text',
+                            icon: 'close',
+                            text: '捐赠列表',
+                            to: '/donations'
+                        }
+                    ]
+                }
             }
         },
         mounted() {

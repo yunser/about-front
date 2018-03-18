@@ -3,6 +3,7 @@ import Router from 'vue-router'
 
 const About = resolve => require(['@/views/About'], resolve)
 const Donate = resolve => require(['@/views/Donate'], resolve)
+const Donation = resolve => require(['@/views/Donation'], resolve)
 const Error404 = resolve => require(['@/views/error/Error404'], resolve)
 
 Vue.use(Router)
@@ -15,6 +16,10 @@ let routes = [
     {
         path: '/donate',
         component: Donate
+    },
+    {
+        path: '/donations',
+        component: Donation
     },
     {
         path: '*',
