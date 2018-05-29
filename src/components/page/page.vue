@@ -12,6 +12,9 @@
                 <ui-divider />
             </ui-list>
             <ui-list @itemClick="toggle()">
+                <ui-list-item title="NiceTool" href="http://www.nicetool.net/" target="_blank">
+                    <ui-icon slot="left" value="grade"/>
+                </ui-list-item>
                 <ui-list-item title="云设工具" href="http://tool.yunser.com/">
                     <ui-icon slot="left" value="grade"/>
                 </ui-list-item>
