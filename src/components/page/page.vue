@@ -8,12 +8,12 @@
                 <ui-list-item title="首页" to="/">
                     <ui-icon slot="left" value="home"/>
                 </ui-list-item>
-                <ui-list-item title="源码" to="/code">
+                <!-- <ui-list-item title="源码" to="/code">
                     <ui-icon slot="left" value="grade"/>
                 </ui-list-item>
                 <ui-list-item title="定制" to="/custom">
                     <ui-icon slot="left" value="grade"/>
-                </ui-list-item>
+                </ui-list-item> -->
                 <!-- <ui-list-item title="NiceTool" href="http://www.nicetool.net/" target="_blank">
                     <ui-icon slot="left" value="grade"/>
                 </ui-list-item> -->
