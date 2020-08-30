@@ -2,7 +2,7 @@
     <ui-page :title="title || page.title" :page="page" ref="page" :backable="backable">
         <div slot="drawer">
             <div class="header">
-                <img class="logo" src="/static/img/about.svg">
+                <img class="logo" src="https://icons.yunser.com/icons/about.png">
             </div>
             <ui-list @itemClick="toggle()">
                 <ui-list-item title="首页" to="/">

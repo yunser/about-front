@@ -21,20 +21,20 @@
                             {
                                 name: '云设介绍',
                                 desc: '',
-                                icon: '/static/img/about.svg',
+                                icon: 'https://icons.yunser.com/icons/about.png',
                                 to: '/description'
                             },
                             {
                                 name: '联系我们',
                                 desc: '',
-                                icon: '/static/img/about.svg',
+                                icon: 'https://icons.yunser.com/icons/contact_us.svg',
                                 to: '/contact'
                             },
                             {
                                 href: 'https://donation.yunser.com/',
                                 to: 'xxx',
                                 target: '_blank',
-                                icon: 'https://icons.yunser.com/icons/donate.svg',
+                                icon: 'https://icons.yunser.com/icons/donation.png',
                                 name: '捐赠',
                                 description: '',
                             },
@@ -42,7 +42,7 @@
                                 href: 'https://team.yunser.com/',
                                 to: 'xxx',
                                 target: '_blank',
-                                icon: 'https://icons.yunser.com/icons/team.svg',
+                                icon: 'https://icons.yunser.com/icons/team.png',
                                 name: '团队',
                                 description: '',
                             },
@@ -50,7 +50,7 @@
                                 href: 'https://software.yunser.com/',
                                 to: 'xxx',
                                 target: '_blank',
-                                icon: 'https://icons.yunser.com/icons/about.svg',
+                                icon: 'https://icons.yunser.com/icons/dev.png',
                                 name: '源码&定制',
                                 description: '',
                             },
